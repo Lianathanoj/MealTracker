@@ -79,10 +79,10 @@
 		A41CD98421FE5F7F00C2B89A /* mealTracker */ = {
 			isa = PBXGroup;
 			children = (
-				A42314FD21FE65DB008C96CA /* RatingControl.swift */,
 				A41CD98521FE5F7F00C2B89A /* AppDelegate.swift */,
 				A41CD98C21FE5F7F00C2B89A /* Assets.xcassets */,
 				A42314F221FE6083008C96CA /* ViewController.swift */,
+				A42314FD21FE65DB008C96CA /* RatingControl.swift */,
 				A42314F321FE6083008C96CA /* Main.storyboard */,
 				A41CD98E21FE5F7F00C2B89A /* LaunchScreen.storyboard */,
 				A41CD99121FE5F7F00C2B89A /* Info.plist */,
