@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  MovieTracker
+//  MealTracker
 //
 //  Created by Lian, Jonathan on 1/27/19.
 //

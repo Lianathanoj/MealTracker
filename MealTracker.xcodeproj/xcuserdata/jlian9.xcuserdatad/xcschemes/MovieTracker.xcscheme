@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A41566DE21FE272100CE840A"
-               BuildableName = "MovieTracker.app"
-               BlueprintName = "MovieTracker"
-               ReferencedContainer = "container:MovieTracker.xcodeproj">
+               BuildableName = "MealTracker.app"
+               BlueprintName = "MealTracker"
+               ReferencedContainer = "container:MealTracker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A41566F221FE272100CE840A"
-               BuildableName = "MovieTrackerTests.xctest"
-               BlueprintName = "MovieTrackerTests"
-               ReferencedContainer = "container:MovieTracker.xcodeproj">
+               BuildableName = "MealTrackerTests.xctest"
+               BlueprintName = "MealTrackerTests"
+               ReferencedContainer = "container:MealTracker.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A41566DE21FE272100CE840A"
-            BuildableName = "MovieTracker.app"
-            BlueprintName = "MovieTracker"
-            ReferencedContainer = "container:MovieTracker.xcodeproj">
+            BuildableName = "MealTracker.app"
+            BlueprintName = "MealTracker"
+            ReferencedContainer = "container:MealTracker.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A41566DE21FE272100CE840A"
-            BuildableName = "MovieTracker.app"
-            BlueprintName = "MovieTracker"
-            ReferencedContainer = "container:MovieTracker.xcodeproj">
+            BuildableName = "MealTracker.app"
+            BlueprintName = "MealTracker"
+            ReferencedContainer = "container:MealTracker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A41566DE21FE272100CE840A"
-            BuildableName = "MovieTracker.app"
-            BlueprintName = "MovieTracker"
-            ReferencedContainer = "container:MovieTracker.xcodeproj">
+            BuildableName = "MealTracker.app"
+            BlueprintName = "MealTracker"
+            ReferencedContainer = "container:MealTracker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		A41566E321FE272100CE840A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41566E221FE272100CE840A /* AppDelegate.swift */; };
 		A41566E521FE272100CE840A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41566E421FE272100CE840A /* ViewController.swift */; };
-		A41566E821FE272100CE840A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41566E621FE272100CE840A /* Main.storyboard */; };
 		A41566EA21FE272100CE840A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41566E921FE272100CE840A /* Assets.xcassets */; };
 		A41566ED21FE272100CE840A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41566EB21FE272100CE840A /* LaunchScreen.storyboard */; };
-		A41566F821FE272100CE840A /* MovieTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41566F721FE272100CE840A /* MovieTrackerTests.swift */; };
+		A41566F821FE272100CE840A /* MealTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41566F721FE272100CE840A /* MealTrackerTests.swift */; };
+		A41567AC21FE4F8800CE840A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41567AA21FE4F8800CE840A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +26,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A41566DF21FE272100CE840A /* MovieTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41566DF21FE272100CE840A /* MealTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MealTracker.app; path = "/Users/jlian9/Documents/movie-app/MovieTracker/build/Debug-iphoneos/MealTracker.app"; sourceTree = "<absolute>"; };
 		A41566E221FE272100CE840A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A41566E421FE272100CE840A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A41566E721FE272100CE840A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A41566E921FE272100CE840A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A41566EC21FE272100CE840A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A41566EE21FE272100CE840A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A41566F321FE272100CE840A /* MovieTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A41566F721FE272100CE840A /* MovieTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTrackerTests.swift; sourceTree = "<group>"; };
+		A41566F321FE272100CE840A /* MealTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MealTrackerTests.xctest; path = "/Users/jlian9/Documents/movie-app/MovieTracker/build/Debug-iphoneos/MealTrackerTests.xctest"; sourceTree = "<absolute>"; };
+		A41566F721FE272100CE840A /* MealTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTrackerTests.swift; sourceTree = "<group>"; };
 		A41566F921FE272100CE840A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41567AB21FE4F8800CE840A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Downloads/03_WorkWithViewControllers/FoodTracker/FoodTracker/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,38 +59,29 @@
 		A41566D621FE272100CE840A = {
 			isa = PBXGroup;
 			children = (
-				A41566E121FE272100CE840A /* MovieTracker */,
+				A41566E121FE272100CE840A /* MealTracker */,
 				A41566F621FE272100CE840A /* MovieTrackerTests */,
-				A41566E021FE272100CE840A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A41566E021FE272100CE840A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A41566DF21FE272100CE840A /* MovieTracker.app */,
-				A41566F321FE272100CE840A /* MovieTrackerTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A41566E121FE272100CE840A /* MovieTracker */ = {
+		A41566E121FE272100CE840A /* MealTracker */ = {
 			isa = PBXGroup;
 			children = (
 				A41566E221FE272100CE840A /* AppDelegate.swift */,
 				A41566E421FE272100CE840A /* ViewController.swift */,
-				A41566E621FE272100CE840A /* Main.storyboard */,
+				A41567AA21FE4F8800CE840A /* Main.storyboard */,
 				A41566E921FE272100CE840A /* Assets.xcassets */,
 				A41566EB21FE272100CE840A /* LaunchScreen.storyboard */,
 				A41566EE21FE272100CE840A /* Info.plist */,
 			);
+			name = MealTracker;
 			path = MovieTracker;
 			sourceTree = "<group>";
 		};
 		A41566F621FE272100CE840A /* MovieTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
-				A41566F721FE272100CE840A /* MovieTrackerTests.swift */,
+				A41566F721FE272100CE840A /* MealTrackerTests.swift */,
 				A41566F921FE272100CE840A /* Info.plist */,
 			);
 			path = MovieTrackerTests;
@@ -99,9 +90,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A41566DE21FE272100CE840A /* MovieTracker */ = {
+		A41566DE21FE272100CE840A /* MealTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A41566FC21FE272100CE840A /* Build configuration list for PBXNativeTarget "MovieTracker" */;
+			buildConfigurationList = A41566FC21FE272100CE840A /* Build configuration list for PBXNativeTarget "MealTracker" */;
 			buildPhases = (
 				A41566DB21FE272100CE840A /* Sources */,
 				A41566DC21FE272100CE840A /* Frameworks */,
@@ -111,14 +102,14 @@
 			);
 			dependencies = (
 			);
-			name = MovieTracker;
+			name = MealTracker;
 			productName = MovieTracker;
-			productReference = A41566DF21FE272100CE840A /* MovieTracker.app */;
+			productReference = A41566DF21FE272100CE840A /* MealTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A41566F221FE272100CE840A /* MovieTrackerTests */ = {
+		A41566F221FE272100CE840A /* MealTrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A41566FF21FE272100CE840A /* Build configuration list for PBXNativeTarget "MovieTrackerTests" */;
+			buildConfigurationList = A41566FF21FE272100CE840A /* Build configuration list for PBXNativeTarget "MealTrackerTests" */;
 			buildPhases = (
 				A41566EF21FE272100CE840A /* Sources */,
 				A41566F021FE272100CE840A /* Frameworks */,
@@ -129,9 +120,9 @@
 			dependencies = (
 				A41566F521FE272100CE840A /* PBXTargetDependency */,
 			);
-			name = MovieTrackerTests;
+			name = MealTrackerTests;
 			productName = MovieTrackerTests;
-			productReference = A41566F321FE272100CE840A /* MovieTrackerTests.xctest */;
+			productReference = A41566F321FE272100CE840A /* MealTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -154,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A41566DA21FE272100CE840A /* Build configuration list for PBXProject "MovieTracker" */;
+			buildConfigurationList = A41566DA21FE272100CE840A /* Build configuration list for PBXProject "MealTracker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -163,12 +154,12 @@
 				Base,
 			);
 			mainGroup = A41566D621FE272100CE840A;
-			productRefGroup = A41566E021FE272100CE840A /* Products */;
+			productRefGroup = A41566D621FE272100CE840A;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A41566DE21FE272100CE840A /* MovieTracker */,
-				A41566F221FE272100CE840A /* MovieTrackerTests */,
+				A41566DE21FE272100CE840A /* MealTracker */,
+				A41566F221FE272100CE840A /* MealTrackerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -178,9 +169,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41567AC21FE4F8800CE840A /* Main.storyboard in Resources */,
 				A41566ED21FE272100CE840A /* LaunchScreen.storyboard in Resources */,
 				A41566EA21FE272100CE840A /* Assets.xcassets in Resources */,
-				A41566E821FE272100CE840A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A41566F821FE272100CE840A /* MovieTrackerTests.swift in Sources */,
+				A41566F821FE272100CE840A /* MealTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,26 +207,26 @@
 /* Begin PBXTargetDependency section */
 		A41566F521FE272100CE840A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A41566DE21FE272100CE840A /* MovieTracker */;
+			target = A41566DE21FE272100CE840A /* MealTracker */;
 			targetProxy = A41566F421FE272100CE840A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A41566E621FE272100CE840A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A41566E721FE272100CE840A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A41566EB21FE272100CE840A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A41566EC21FE272100CE840A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A41567AA21FE4F8800CE840A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A41567AB21FE4F8800CE840A /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -370,7 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.MovieTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieTracker.app/MovieTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MealTracker.app/MealTracker";
 			};
 			name = Debug;
 		};
@@ -384,14 +375,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.MovieTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieTracker.app/MovieTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MealTracker.app/MealTracker";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A41566DA21FE272100CE840A /* Build configuration list for PBXProject "MovieTracker" */ = {
+		A41566DA21FE272100CE840A /* Build configuration list for PBXProject "MealTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A41566FA21FE272100CE840A /* Debug */,
@@ -400,7 +391,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A41566FC21FE272100CE840A /* Build configuration list for PBXNativeTarget "MovieTracker" */ = {
+		A41566FC21FE272100CE840A /* Build configuration list for PBXNativeTarget "MealTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A41566FD21FE272100CE840A /* Debug */,
@@ -408,7 +399,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		A41566FF21FE272100CE840A /* Build configuration list for PBXNativeTarget "MovieTrackerTests" */ = {
+		A41566FF21FE272100CE840A /* Build configuration list for PBXNativeTarget "MealTrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A415670021FE272100CE840A /* Debug */,

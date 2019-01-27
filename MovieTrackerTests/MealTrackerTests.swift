@@ -1,15 +1,15 @@
 //
-//  MovieTrackerTests.swift
-//  MovieTrackerTests
+//  MealTrackerTests.swift
+//  MealTrackerTests
 //
 //  Created by Lian, Jonathan on 1/27/19.
 //
 //
 
 import XCTest
-@testable import MovieTracker
+@testable import MealTracker
 
-class MovieTrackerTests: XCTestCase {
+class MealTrackerTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
