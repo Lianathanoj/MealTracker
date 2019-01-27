@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     
     // MARK: Properties
 
@@ -17,7 +17,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Handle the text field's input through delegate callbacks by setting ViewController as delegate
+        nameTextField.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,6 +27,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    // MARK: UITextFieldDelegate
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        // Hide the keyboard (because resigning first reponsder hides keyboard).
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        movieNameLabel.text = textField.text
+    }
+    
     // MARK: Actions
     @IBAction func setDefaultLabelText(_ sender: UIButton) {
         movieNameLabel.text = "Default Text"
