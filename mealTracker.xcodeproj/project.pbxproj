@@ -16,6 +16,7 @@
 		A42314FE21FE65DB008C96CA /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42314FD21FE65DB008C96CA /* RatingControl.swift */; };
 		A423150021FE72F9008C96CA /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42314FF21FE72F9008C96CA /* Meal.swift */; };
 		A423150221FE7710008C96CA /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A423150121FE7710008C96CA /* MealTableViewCell.swift */; };
+		A423150421FE7A72008C96CA /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A423150321FE7A72008C96CA /* MealTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		A42314FD21FE65DB008C96CA /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingControl.swift; path = ../RatingControl.swift; sourceTree = "<group>"; };
 		A42314FF21FE72F9008C96CA /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		A423150121FE7710008C96CA /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		A423150321FE7A72008C96CA /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				A42314FF21FE72F9008C96CA /* Meal.swift */,
 				A42314FD21FE65DB008C96CA /* RatingControl.swift */,
 				A42314F321FE6083008C96CA /* Main.storyboard */,
+				A423150321FE7A72008C96CA /* MealTableViewController.swift */,
 				A423150121FE7710008C96CA /* MealTableViewCell.swift */,
 				A41CD98E21FE5F7F00C2B89A /* LaunchScreen.storyboard */,
 				A41CD99121FE5F7F00C2B89A /* Info.plist */,
@@ -212,6 +215,7 @@
 				A42314F521FE6083008C96CA /* ViewController.swift in Sources */,
 				A42314FE21FE65DB008C96CA /* RatingControl.swift in Sources */,
 				A41CD98621FE5F7F00C2B89A /* AppDelegate.swift in Sources */,
+				A423150421FE7A72008C96CA /* MealTableViewController.swift in Sources */,
 				A423150221FE7710008C96CA /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
