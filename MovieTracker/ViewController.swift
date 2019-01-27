@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // MARK: Properties
+
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var movieNameLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +25,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    // MARK: Actions
+    @IBAction func setDefaultLabelText(_ sender: UIButton) {
+        movieNameLabel.text = "Default Text"
+    }
 }
 
