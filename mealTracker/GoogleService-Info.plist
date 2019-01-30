@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>24643433969-nks8iuo0iv5sjaem3l6tg463r8ko6q0r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.24643433969-nks8iuo0iv5sjaem3l6tg463r8ko6q0r</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA0MmTjoVK909jaklgW8LEr01SH6plqDvQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>24643433969</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.meal-tracker</string>
+	<key>PROJECT_ID</key>
+	<string>mas-1-f8720</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mas-1-f8720.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:24643433969:ios:a3aa37e897e76b70</string>
+	<key>DATABASE_URL</key>
+	<string>https://mas-1-f8720.firebaseio.com</string>
+</dict>
+</plist>

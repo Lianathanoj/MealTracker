@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseDatabase
 import os.log
 
 class MealTableViewController: UITableViewController {
@@ -14,10 +15,12 @@ class MealTableViewController: UITableViewController {
     //MARK: Properties
     
     var meals = [Meal]()
+    var ref: DatabaseReference!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        ref = Database.database().reference()
         // Use the edit button item provided by the table view controller.
         navigationItem.leftBarButtonItem = editButtonItem
         
@@ -155,6 +158,8 @@ class MealTableViewController: UITableViewController {
                 
                 meals.append(meal)
                 tableView.insertRows(at: [newIndexPath], with: .automatic)
+                
+            ref?.child("Meals").childByAutoId().setValue(meal.name)
             }
             
             // Save the meals.
@@ -187,6 +192,7 @@ class MealTableViewController: UITableViewController {
     
     private func saveMeals() {
         let isSuccessfulSave = NSKeyedArchiver.archiveRootObject(meals, toFile: Meal.ArchiveURL.path)
+        
         if isSuccessfulSave {
             os_log("Meals successfully saved.", log: OSLog.default, type: .debug)
         } else {
